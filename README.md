@@ -33,3 +33,17 @@ Laika? Nyet.
 ## vacuumxl.g3kp
 
 Get inside.
+
+
+## Tools
+
+A helper script `gnx3000.py` can list preset names and edit parameter values in bulk.
+
+Example usages:
+
+```bash
+python gnx3000.py list
+python gnx3000.py set-name MyPatch big.g3kp
+python gnx3000.py set-param 2434 90 big.g3kp
+python gnx3000.py upload "MIDI Output" big.g3kp --dry-run
+```
